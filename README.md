@@ -1,5 +1,5 @@
 # Na rede do candidato
-Prj monitora posts de candidatos nas redes sociais e feedback de seguidores.
+Projeto para monitorar posts de candidatos nas redes sociais e feedback de seguidores.
 
 ## Funcionaliades - classificadas por pontos na votacao dos participantes
 - Apresenta o top 10 de todos os Posts com mais likes/reactions ou comments (7 pontos)
@@ -18,4 +18,3 @@ Prj monitora posts de candidatos nas redes sociais e feedback de seguidores.
 
 ## Tecnologia
 - node.js
-- scup
