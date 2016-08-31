@@ -1,0 +1,28 @@
+front:
+  image: node
+  command: "bash -c 'npm install && npm start'"
+  working_dir: /project
+  volumes:
+    - ./narededocandidato-frontend:/project
+  environment:
+    CONFIG: 'valor'
+  links:
+    - backend
+
+backend:
+  image: node
+  command: "bash -c 'npm install && npm start'"
+  working_dir: /project
+  volumes:
+    - ./narededocandidato-backend:/project
+  environment:
+    CONFIG: 'valor'
+
+crawlers:
+  image: node
+  command: "bash -c 'echo test'"
+  working_dir: /project
+  volumes:
+    - ./narededocandidato-crawlers:/project
+  environment:
+    CONFIG: 'valor'
