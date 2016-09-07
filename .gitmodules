@@ -1,0 +1,9 @@
+[submodule "narededocandidato-backend"]
+	path = narededocandidato-backend
+	url = git@github.com:code-for-sao-paulo/narededocandidato-backend.git
+[submodule "narededocandidato-frontend"]
+	path = narededocandidato-frontend
+	url = git@github.com:code-for-sao-paulo/narededocandidato-frontend.git
+[submodule "narededocandidato-crawlers"]
+	path = narededocandidato-crawlers
+	url = git@github.com:code-for-sao-paulo/narededocandidato-crawlers.git
